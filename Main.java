@@ -8,6 +8,10 @@ public class Main {
     for (String arg : args) {
       System.out.println(arg);
     }
+
+    System.out.println("=============");
+    System.out.println("==== END ====");
+    System.out.println("=============");
   }
 
 }
