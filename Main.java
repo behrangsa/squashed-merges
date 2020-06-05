@@ -4,6 +4,10 @@ public class Main {
     for (int i = 0; i < 3; i++) {
       System.out.println("Hello, World");
     }
+
+    for (String arg : args) {
+      System.out.println(arg);
+    }
   }
 
 }
